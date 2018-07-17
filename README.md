@@ -1,6 +1,7 @@
 # ScienceMarket Protal
 
 ## Development Environment Setup
+
 - Install php by running `sudo apt-get install php7.0-zip`
 - Install Composer (PHP's package manager) as given [here](https://getcomposer.org/download/)
 - Move the locally installed `composer.phar` to path folder by running `mv composer.phar /usr/local/bin/composer`
@@ -8,6 +9,7 @@
 - Install PHP packages by running `composer install`
 - Install node-pngquant dependency by running `sudo apt-get install libpng-dev`
 - Install Nodejs packages by running `npm i`
+- Rename `.env.example` file to `.env`. Also, create a new Application Key using `php artisan key:generate`.
 
 ----
 

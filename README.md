@@ -1,3 +1,16 @@
+# ScienceMarket Protal
+
+## Development Environment Setup
+- Install php by running `sudo apt-get install php7.0-zip`
+- Install Composer (PHP's package manager) as given [here](https://getcomposer.org/download/)
+- Move the locally installed `composer.phar` to path folder by running `mv composer.phar /usr/local/bin/composer`
+- Now install the following two packages by running `sudo apt-get install php-mbstring php-xml`
+- Install PHP packages by running `composer install`
+- Install node-pngquant dependency by running `sudo apt-get install libpng-dev`
+- Install Nodejs packages by running `npm i`
+
+----
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">

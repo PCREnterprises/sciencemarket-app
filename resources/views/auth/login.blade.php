@@ -6,8 +6,8 @@
 <div id="main-container">
     <br>
     <div id="login-logo">
-        <img id="" src="{{asset('storage/img/logo4.svg')}}" width="70" height="70"/>
-        <img id="" src="{{asset('storage/img/logo.svg')}}" width="250" height="70"/>
+        <img id="" src="{{asset('images/logo4.svg')}}" width="70" height="70"/>
+        <img id="" src="{{asset('images/logo.svg')}}" width="250" height="70"/>
     </div>
     <br>
     <form method="post" action="{{ route('login') }}" aria-label="{{ __('Login') }}">

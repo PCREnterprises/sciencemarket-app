@@ -59,7 +59,7 @@ header	{
 	height:35px;
 	border:1px solid #eee;
 	border-radius:20px;
-	background-image:url('../../../storage/app/public/img/male.jpg');
+	background-image:url('../img/male.jpg');
 	background-size:cover;
 }
 .nav-link:link	{
